@@ -35,6 +35,10 @@ header {
   background-color: rgba(229, 226, 226, 0.3);
 }
 
+#search_job h2 {
+  margin-top: 150px;
+}
+
 main {
   margin-top: -30px;
 }
@@ -47,6 +51,7 @@ main .services {
   object-fit: cover;
   border: 1px solid white;
   border-radius: 50%;
+  margin: 10px 95px;
 }
 
 footer {
@@ -61,9 +66,20 @@ footer hr {
   background-color: white;
 }
 
+footer .footer_links {
+  display: flex;
+  padding: 1px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @media (max-width: 768px) {
   .display-none {
     display: none;
+  }
+
+  footer .footer_links {
+    font-size: 12px;
   }
 }
 

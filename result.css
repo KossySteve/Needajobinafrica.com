@@ -65,6 +65,13 @@ footer hr {
   background-color: white;
 }
 
+footer .footer_links {
+  display: flex;
+  padding: 1px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @media (max-width: 768px) {
   .contact_employer {
     display: flex;
@@ -74,6 +81,10 @@ footer hr {
 
   .display-none {
     display: none;
+  }
+
+  footer .footer_links {
+    font-size: 12px;
   }
 }
 
