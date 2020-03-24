@@ -25,6 +25,11 @@ section .jumbotron {
   background-color: rgba(134, 132, 132, 0.5);
 }
 
+section .jumbotron h4 {
+  margin-top: 100px;
+  padding: 50px 0;
+}
+
 .filter_input input {
   width: 30px;
 }
