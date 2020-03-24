@@ -56,6 +56,7 @@ main {
 footer {
   background-color: black;
   padding-top: 20px;
+  width: 100%;
 }
 
 footer hr {
