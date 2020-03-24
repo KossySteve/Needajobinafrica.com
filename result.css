@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+  font-family: 'Oswald', sans-serif;
+  max-width: 1500px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  }
+
+main {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  width: 100%;
+  margin-top: 0;
+}
+
+#main .jumbotron {
+  background-color: white;
+}
+
+.contact_employer {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+#main a {
+  text-decoration: none;
+}
+
+.contact_employer > * {
+  flex-wrap: wrap;
+  flex: 1 1;
+}
+
+.contact_employer :last-child {
+  flex: 2 1;
+}
+
+#section2 {
+  margin: 0 auto;
+}
+
+#section2 input {
+  border-bottom: 2px dotted grey;
+}
+
+
+footer {
+  background-color: black;
+  padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .contact_employer {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+}

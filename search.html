@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="search-style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+     crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <title>needajobinafrica.com</title>
+</head>
+<body>
+    <div id="web_container">
+        <header class="px-0 d-flex flex-column pb-3">
+            <nav class="navbar bg-danger d-flex justify-content-between align-items-baseline">
+                <div class="mx-auto mx-md-3">
+                    <span class="text-white"><b><i class="fas fa-globe-africa fa-3x"></i>N J I A</b></span>
+                </div>
+                <div class="d-inline-flex px-5">
+                    <a href="#" class="text-white nav-link"><b><i class="fas fa-search"></i></b> JOBS</a>
+                    <a href="#" class="text-white nav-link px-3"><b><i class="far fa-user"></i></b> ABOUT</a>
+                    <a href="#" class="text-white nav-link px-3"><i class="fas fa-rss"></i> BLOG</a>
+                    <a href="#" class="text-white nav-link"><b><i class="fas fa-bars"></i></b> MORE...</a>
+                </div>
+            </nav>
+            <section>
+                    
+                    <div class="jumbotron jumbotron-fluid  mt-3 pt-0">
+                            <h4 class="text-center pt-3 text-secondary h4 py-3">Filter by state, country, profession, salary:</h4>
+                            <div class="container-fluid px-md-3"> 
+                                <div class="row filter mx-md-2">
+                                    <div >
+                                        <h5 class="text-dark text-nowrap">Job Type :</h5>
+                                        <input type="text" class="form-control w-75" id="search">
+                                    </div>
+                                    <div >
+                                        <h5 class="text-dark ">Country :</h5>
+                                        <div class="dropdown">
+                                            <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split pl-5 pr-0 w-75" data-toggle="dropdown"> </button>
+                                            <div class="dropdown-menu pr-0">
+                                              <a class="dropdown-item" href="#">Egypt</a>
+                                              <a class="dropdown-item" href="#">Ghana</a>
+                                              <a class="dropdown-item" href="#">S/Africa</a>
+                                              <a class="dropdown-item" href="#">Nigeria</a>
+                                              <a class="dropdown-item" href="#">Angola</a>
+                                              <a class="dropdown-item" href="#">Kenya</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div >
+                                        <h5 class="text-dark ">Salary :</h5>
+                                        <div class="dropdown">
+                                            <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split pl-5 pr-0 w-75" data-toggle="dropdown"> </button>
+                                        
+                                            <div class="dropdown-menu">
+                                              <a class="dropdown-item" href="#">$30,000 - 80,000</a>
+                                              <a class="dropdown-item" href="#">$80,000 - 150,000</a>
+                                              <a class="dropdown-item" href="#">150,000 - 250,000</a>
+                                              <a class="dropdown-item" href="#">over 250,000</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div >
+                                        <h5 class="text-dark ">Field :</h5>
+                                        <div class="dropdown">
+                                            <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split pl-5 pr-0 w-75" data-toggle="dropdown"> </button>
+                                            <div class="dropdown-menu">
+                                              <a class="dropdown-item" href="#">Info Tech</a>
+                                              <a class="dropdown-item" href="#">Haelthcare</a>
+                                              <a class="dropdown-item" href="#">Academia</a>
+                                              <a class="dropdown-item" href="#">Engineering</a>
+                                              <a class="dropdown-item" href="#">Entertainment</a>
+                                              <a class="dropdown-item" href="#">Sports</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                        
+                                    <div >
+                                        <h5 class="text-dark ">Working Hours :</h5>
+                                        <div class="dropdown">
+                                            <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split pl-5 pr-0 w-75" data-toggle="dropdown"> </button>
+                                            <div class="dropdown-menu">
+                                              <a class="dropdown-item" href="#">9am-5pm</a>
+                                              <a class="dropdown-item" href="#">5pm-11pm</a>
+                                              <a class="dropdown-item" href="#">12am-6am</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                        
+                                    <div >
+                                        <h5 class="text-dark ">Experience :</h5>
+                                        <div class="dropdown">
+                                            <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split pl-5 pr-0 w-75" data-toggle="dropdown"> </button>
+                                            <div class="dropdown-menu">
+                                              <a class="dropdown-item" href="#">1 year</a>
+                                              <a class="dropdown-item" href="#">2 years</a>
+                                              <a class="dropdown-item" href="#">3 years</a>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="d-flex align-items-end mt-2">
+                                        <a href="#result" class="btn btn-primary mr-2 px-3">search</a>
+                                        <button type="button" class="btn btn-warning text-nowrap px-2">clear filter</button>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+            </section>
+        </header>
+
+        <main>
+
+                <section class="text-center"><h2>Search results found 6 jobs</h2></section>
+
+                <section class="filter_result">
+                    <div class="bg-danger">
+                        <a href="search_result.html">
+                        <h4>COMPANY NAME : RADOX CONSULTING</h4>
+                        <h4>POSITION : <small>MARKETING MANAGER</small></h4>
+                        <h4>SALARY RANGE : <small>$5000 - $8,000 per annum</small></h4>
+                        <h4>REQUIREMENTS : <small>ICAN , MBA with 2+ years experience</small> </h4>
+                        </a>
+                    </div>
+                    <div class="bg-danger" id="result">
+                        <a href="search_result.html">
+                        <h4>COMPANY NAME : RADOX CONSULTING</h4>
+                        <h4>POSITION : <small>BUSINESS MANAGER</small> </h4>
+                        <h4>SALARY RANGE : <small>$7000 - $9,000 per annum</small></h4>
+                        <h4>REQUIREMENTS : <small>MBA, 10+ years experience</small> </h4>
+                        </a>
+                    </div>
+                    <div class="bg-danger">
+                        <a href="search_result.html">
+                        <h4>COMPANY NAME : RADOX CONSULTING</h4>
+                        <h4>POSITION : <small> ACCOUNT MAANGER</small></h4>
+                        <h4>SALARY RANGE : <small>$5000 - $8,000 per annum</small></h4>
+                        <h4>REQUIREMENTS : <small>ICAN , B.Accounting with 2+ years experience</small> </h4>
+                        </a>
+                    </div>
+                    <div class="bg-danger" >
+                        <a href="search_result.html">
+                        <h4>COMPANY NAME : RADOX CONSULTING </h4>
+                        <h4>POSITION : <small>MARKETING</small></h4>
+                        <h4>SALARY RANGE : <small>$8000 - $10,000 per annum</small> </h4>
+                        <h4>REQUIREMENTS : <small>ICAN , B.A Marketing with 2+ years experience</small> </h4>
+                        </a>
+                    </div>
+                    <div class="bg-danger">
+                        <a href="search_result.html">
+                        <h4>COMPANY NAME : RADOX CONSULTING</h4>
+                        <h4>POSITION : <small>SALES MANAGER</small> </h4>
+                        <h4>SALARY RANGE :<small>$5000 - $8,000 per annum</small></h4>
+                        <h4>REQUIREMENTS :<small>MBA , B.Accounting with 2+ years experience</small> </h4>
+                        </a>
+                    </div>
+                    <div class="bg-danger">
+                        <a href="search_result.html">
+                        <h4>COMPANY NAME : RADOX CONSULTING</h4>
+                        <h4>POSITION : <small>FINANCIAL ANALYST </small></h4>
+                        <h4>SALARY RANGE : <small>$4000 - $5,000 per annum</small></h4>
+                        <h4>REQUIREMENTS : <small>ICAN, MBA, B.Accounting with 3+ years experience</small> </h4>
+                        </a>
+                    </div>
+                </section>
+        </main>
+    </div>
+    <footer class="bg-dark ">
+        <div class="px-4">
+            <b><hr class="mb-n2"></b>
+            <div class="d-flex justify-content-between py-n5 align-items-center">
+                <a href="#" class="text-white">Home</a>
+                <a href="#"class="text-white">Search</a>
+                <a href="#"class="text-white">About Us</a>
+                <a href="#" class="text-white">Advertise</a>
+                <button type="button" class="btn btn-outline-secondary rounded-circle bg-dark "><i class="fas fa-map-marker-alt fa-3x"></i></button>
+                <a href="#" class="text-white">Facebook</a>
+                <a href="#" class="text-white">Twitter</a>
+                <a href="#" class="text-white">Blog</a>
+                <a href="#" class="text-white">Google+</a>
+                
+            </div>
+            <b><hr class="mt-n1"></b>
+        </div>
+        <div class="container-fluid">
+            <div class="row px-3 pt-2">
+                <div class="col-12 col-md">
+                    <h4 class="text-white text-center">SUSCRIBE</h4>
+                    <div class="form-group d-flex mx-auto">
+                        <input type="text" class="form-control w-75" id="suscriber" placeholder="@youremail">
+                        <label for="suscriber" ><button type="button" class="btn btn-secondary ml-n1 border border-left-0 px-4">send</button></label>
+                    </div>
+                </div>
+                <div class="col-12 col-md">
+                    <h4 class="text-white text-center">CONTACT</h4>
+                    <p class="text-center text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, magni. Itaque, nulla incidunt quia numquam porro 
+                       dolorem officia hic nisi cum rem magni accusamus qui, cumque provident nemo ab quam.</p>
+                </div>
+                <div class="col-12 col-md">
+                    <h4 class="text-white text-center">ABOUT</h4>
+                    <p class="text-center text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, magni. Itaque, nulla incidunt quia numquam porro 
+                        dolorem officia hic nisi cum rem magni accusamus qui, cumque provident nemo ab quam. Itaque, nulla incidunt quia numquam porro 
+                        dolorem officia hic nisi cum rem magni accusamus qui, cumque provident nemo ab quam.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-baseline bg-secondary px-5 pt-3 pb-4">
+            <div class="d-inline-flex justify-content-between align-items-baseline mx-auto mx-md-1">
+                <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"class="text-white mx-3"><i class="fab fa-twitter"></i></a>
+                <a href="#"class="text-white "><i class="fab fa-google-plus-g"></i></a>
+                <a href="#" class="text-white mx-3"><i class="far fa-envelope"></i></a>
+            </div>
+            <p class="text-white mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus similique harum aperiam quasi ex, quos,</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
