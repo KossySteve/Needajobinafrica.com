@@ -2,14 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  }
+}
 
 body {
   font-family: 'Oswald', sans-serif;
   max-width: 1500px;
   margin: 0 auto;
   overflow-x: hidden;
-  }
+}
+
+.nav_color {
+  background-color: rgb(211, 86, 73);
+}
 
 main {
   background-color: white;
@@ -41,10 +45,6 @@ main {
   flex: 1 1;
 }
 
-.contact_employer :last-child {
-  flex: 2 1;
-}
-
 #section2 {
   margin: 0 auto;
 }
@@ -53,10 +53,16 @@ main {
   border-bottom: 2px dotted grey;
 }
 
-
 footer {
   background-color: black;
   padding-top: 20px;
+}
+
+footer hr {
+  height: 1px;
+  color: white;
+  border: none;
+  background-color: white;
 }
 
 @media (max-width: 768px) {
@@ -64,5 +70,26 @@ footer {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+  }
+
+  .display-none {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .display-none {
+    display: none;
+  }
+
+  .contact_employer > * {
+    flex-wrap: wrap;
+    flex: 1 1;
+  }
+}
+
+@media (min-width: 1025px) {
+  .display-none {
+    display: inline;
   }
 }
