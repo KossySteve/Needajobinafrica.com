@@ -18,7 +18,7 @@ This is a solo project to build a responsive website using HTML5, bootstrap &amp
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/KossySteve/Newsweek_homepage_clone/05029383108f591721578dc2f2dcb182f4a0c3dd/index.html)
+[Live Demo Link](https://raw.githack.com/KossySteve/Needajobinafrica.com/development/index.html)
 
 ## Authors
 
