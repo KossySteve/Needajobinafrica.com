@@ -12,15 +12,15 @@ This is a solo project to build a responsive website using HTML5, bootstrap &amp
 
 ## Project specific
 
-- Aligned all elements with boostrap, CSS flexbox, grid and float.
-- Used a mobile first approach when dealing with media queries with 2 breakpoints.
+- Aligned all elements with Boostrap, CSS flexbox, grid and float.
+- Used a mobile first approach when dealing with media queries with 3 breakpoints.
 - Double-check for breakpoints of page layout on different screens.
 
 ## Live Demo
 
 [Live Demo Link](https://raw.githack.com/KossySteve/Needajobinafrica.com/development/index.html)
 
-## Authors
+## Author
 
 👤 **Ezeokwelume Kosisochukwu Stephen**
 
@@ -29,7 +29,7 @@ This is a solo project to build a responsive website using HTML5, bootstrap &amp
 - Linkedin: [linkedin](https://www.linkedin.com/in/steve-ez-b090ba198/) 
 
 ## Project Owners
-👤 **Mathew Njuguna & Sam Achola**
+👤👤 **Mathew Njuguna & Sam Achola**
 
 -  Behance, Nairobi, Kenya
  
