@@ -18,7 +18,7 @@ This is a solo project to build a responsive website using HTML5, bootstrap &amp
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/KossySteve/Needajobinafrica.com/development/index.html)
+[Live Demo Link](https://rawcdn.githack.com/KossySteve/Needajobinafrica.com/6d5864ed0fb6137c65d7b7a0ab9b20cb6514a744/index.html)
 
 ## Author
 
