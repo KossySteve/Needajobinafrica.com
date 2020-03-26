@@ -11,6 +11,11 @@ body {
   overflow-x: hidden;
 }
 
+header nav :first-child a {
+  text-decoration: none;
+  color: white;
+}
+
 .nav_color {
   background-color: rgb(211, 86, 73);
 }
@@ -49,8 +54,31 @@ main {
   margin: 0 auto;
 }
 
-#section2 input {
+#section2 .form input {
+  border: 2px solid grey;
   border-bottom: 2px dotted grey;
+  width: 48vw;
+  padding: 7px 0;
+}
+
+#section2 .form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 48vw;
+  margin: 0 auto;
+}
+
+#section2 .form > div {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+#section2 .form .sign_button {
+  display: flex;
+  flex-direction: row;
 }
 
 footer {
@@ -86,6 +114,10 @@ footer .footer_links {
 
   footer .footer_links {
     font-size: 12px;
+  }
+
+  #section2 .sign_button button {
+    font-size: 13px;
   }
 }
 
