@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background-image: url("images/workers.png");
+  background-image: url("../images/workers.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
