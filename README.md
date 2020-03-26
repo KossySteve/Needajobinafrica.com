@@ -13,7 +13,7 @@ This is a solo project to build a responsive website using HTML5, bootstrap &amp
 ## Project specific
 
 - Aligned all elements with boostrap, CSS flexbox, grid and float.
-- Used a mobile first approach when dealing with mediaqueries with 2 breakpoints.
+- Used a mobile first approach when dealing with media queries with 2 breakpoints.
 - Double-check for breakpoints of page layout on different screens.
 
 ## Live Demo
