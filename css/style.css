@@ -44,6 +44,14 @@ main {
   width: 100%;
 }
 
+main section h1 {
+  color: rgb(211, 86, 73);
+  padding: 20px 100px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
 main .services {
   background-color: white;
 }
@@ -80,6 +88,10 @@ footer .footer_links {
     display: none;
   }
 
+  main section h1 {
+    font-size: 30px;
+  }
+
   footer .footer_links {
     font-size: 12px;
   }
@@ -87,6 +99,10 @@ footer .footer_links {
 
 @media (max-width: 1024px) and (min-width: 769px) {
   .display-none {
+    display: none;
+  }
+
+  main section h1 {
     display: none;
   }
 }
